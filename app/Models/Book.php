@@ -19,6 +19,7 @@ class Book extends Model
         'author_id',
         'binding',
         'released_at',
+        'filename',
     ];
 
     protected $casts = [
